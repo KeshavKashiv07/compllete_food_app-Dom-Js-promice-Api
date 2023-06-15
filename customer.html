@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration Form </title>
+    <link rel="stylesheet" href="./css/customer.css">
+    <link rel="stylesheet" href="./css/nav.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">View Menu</a>
+        <a href="customer.html">Customer Registration</a>
+        <a href="order.html">Place an Order</a>
+    </div>
+    <!-- Add HTML5 validations for the fields as per the requirements stated in the README -->
+    <form onsubmit="return submitCustomerDetail(event)" id="customerRegistrationForm">
+        <h4>Fill up Customer Details here</h4>
+        <div>
+            <label for="custID">Customer Id:</label>
+            <input type="number" name="custID" id="custID" required>
+        </div>
+        <div>
+            <label for="name">Customer Name:</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+            <label for="custPasword">Password:</label>
+            <input type="password" name="custPasword" id="custPasword" required>
+        </div>
+        <div>
+            <label for="custConfirmPassword">Confirm Password:</label>
+            <input type="password" name="custConfirmPassword" id="custConfirmPassword"  required>
+            <p id="msg" class="para"></p>
+        </div>
+        <div>
+            <label for="email">Email Id:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="contact">Contact Number:</label>
+            <input type="text" name="contact" id="contact" required>
+        </div>
+        <div>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" cols="30" required></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Register" id="submit"/>
+        </div>
+    </form>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="js/customer.js"></script>
+</body>
+</html>

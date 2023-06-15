@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veggie Pizza Order</title>
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/order.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">View Menu</a>
+        <a href="customer.html">Customer Registration</a>
+        <a href="order.html">Place an Order</a>
+    </div>
+
+    <!-- Paste the solution code developed in sprint 5 challenge to create order form here  -->
+
+    <main>
+        <div class="card ">
+
+            <div class="card-body py-3">
+
+              <h3 class="card-title">Fill up order details here</h3>
+              <form action="#" onsubmit="submitOrder(event)">
+
+                <label for="orderID">Order ID:</label> <br>
+                <input type="number" id="orderID" class="form-control" name="orderID" required><br>
+            
+                <label for="customerName">Customer Name:</label> <br>
+                <input type="text" id="customerName" class="form-control" name="customerName"  required><br>
+            
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" class="form-control" name="email" required><br>
+            
+                <label for="contactNumber">Contact Number:</label> <br>
+                <input type="number" id="contactNumber" class="form-control" name="contactNumber" required><br>
+            
+                <label for="date">Date:</label> <br>
+                <input type="date" id="date" class="form-control" name="date" required><br>
+            
+                <label for="address">Address:</label><br>
+                <textarea type="text" id="address" class="form-control" name="address" required></textarea><br>
+
+
+                <div><label for="addOrder">Add Order</label>
+                  <button id="Addorder" class="bts " name="addOrder" onclick="createOrders(event)">+</button>
+                </div><br><br>
+
+                <div class="row ms-4">
+                  <h6 class="col-lg-2">Category Name</h6> 
+                  <h6 class="col-lg-2">Item Name</h6>
+                  <h6 class="col-lg-2">Price</h6>
+                  <h6 class="col-lg-2">Quantity</h6>
+                  <h6 class="col-lg-2">Amount</h6>
+                </div>
+
+                <div id="order-container" class="container"></div>
+
+                <div class="d-flex my-3">
+                  <h6 class="pe-3">Total Amount </h6>
+                  <input type="text" id="totalAmount">
+                </div>
+
+                <button id="orderNow"> Order Now</button>
+
+              </form> 
+
+            </div>
+          </div>
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/order.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+{
+  "customers": [
+    {
+      "custID": "1234",
+      "name": "Keshav",
+      "custPasword": "Keshav$$Keshav",
+      "custConfirmPassword": "Keshav$$Keshav",
+      "email": "keshavkashiv9650@gmail.com",
+      "contact": "987654321",
+      "address": "India , Noida",
+      "id": 1
+    },
+    {
+      "custID": "987",
+      "name": "Ram",
+      "custPasword": "Ram@1234567",
+      "custConfirmPassword": "Ram@1234567",
+      "email": "ram@gmail.com",
+      "contact": "0987654321",
+      "address": "Goa,India",
+      "id": 2
+    },
+    {
+      "custID": "679",
+      "name": "Aman",
+      "custPasword": "Amam@32145",
+      "custConfirmPassword": "Aman@32145",
+      "email": "Aman@12376",
+      "contact": "09876789",
+      "address": "Uk,India",
+      "id": 3
+    },
+    {
+      "custID": "897",
+      "name": "Rahul",
+      "custPasword": "Rahul2897",
+      "custConfirmPassword": "Rahul@987",
+      "email": "Rahul@gmail.com",
+      "contact": "09876598",
+      "address": "MP,India",
+      "id": 4
+    },
+    {
+      "custID": "679",
+      "name": "Ajay",
+      "custPasword": "Ajay@123ajay",
+      "custConfirmPassword": "Ajay@123ajay",
+      "email": "Ajay@gmail.com",
+      "contact": "0987654321",
+      "address": "Up,India",
+      "id": 5
+    },
+    {
+      "custID": "9876",
+      "name": "Ankit",
+      "custPasword": "Ankit98765",
+      "custConfirmPassword": "Ankiy9876",
+      "email": "Ankit@123",
+      "contact": "98765400",
+      "address": "Noida,India",
+      "id": 6
+    },
+    {
+      "custID": "098",
+      "name": "iju",
+      "custPasword": "kasdksa",
+      "custConfirmPassword": "kanmanm",
+      "email": "K@12",
+      "contact": "kMAA",
+      "address": "ANSA",
+      "id": 7
+    },
+    {
+      "custID": "78",
+      "name": "ux",
+      "custPasword": "abxsd",
+      "custConfirmPassword": "asdbgh",
+      "email": "eyzzz@23",
+      "contact": "zzz",
+      "address": "zz",
+      "id": 8
+    },
+    {
+      "custID": "234",
+      "name": "kisys",
+      "custPasword": "NASNANM",
+      "custConfirmPassword": "kljskaskms",
+      "email": "lKASNKANS@123",
+      "contact": "9399393",
+      "address": "ASAJSAA",
+      "id": 9
+    },
+    {
+      "custID": "34",
+      "name": "sss",
+      "custPasword": "123",
+      "custConfirmPassword": "123",
+      "email": "m@123",
+      "contact": "2",
+      "address": "e",
+      "id": 10
+    },
+    {
+      "custID": "89",
+      "name": "89",
+      "custPasword": "keshav",
+      "custConfirmPassword": "keshav231",
+      "email": "K@12",
+      "contact": "345",
+      "address": "34",
+      "id": 11
+    },
+    {
+      "custID": "25",
+      "name": "Chandani",
+      "custPasword": "ceo",
+      "custConfirmPassword": "ceo",
+      "email": "chand@123",
+      "contact": "987654321",
+      "address": "india",
+      "id": 12
+    },
+    {
+      "custID": "90876",
+      "name": "anuj",
+      "custPasword": "anuj",
+      "custConfirmPassword": "anuj",
+      "email": "keshav@123gmail.com",
+      "contact": "989898765",
+      "address": "Dubai",
+      "id": 13
+    },
+    {
+      "custID": "1001",
+      "name": "Keshav",
+      "custPasword": "12345678",
+      "custConfirmPassword": "12345678",
+      "email": "keshavkashiv9650@gmail.com",
+      "contact": "987654321",
+      "address": "gr.noida,India",
+      "id": 14
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+/* Write style code here*/
+
+.header  {
+    background-color: rgb(5, 17, 58);
+    padding: 6px;
+    border-bottom: 3px solid orange;
+}
+
+h1 {
+    color: rgb(0, 204, 255);
+}
+
+main .card{
+    margin: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+}
+
+.bts {
+    border-radius: 20px;
+}
+
+#totalAmount {
+    border-radius: 10px;
+}
+
+#orderNow {
+    background-color: blue;
+    color: white;
+}
